@@ -21,7 +21,7 @@ if (process.env.NODE_ENV == 'production')   {
 }
 
 //Port: Heruko type
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 
 // Start web app 
 app.listen(port, () => console.log(`Server started on port ${port}`));
